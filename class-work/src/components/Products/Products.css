@@ -1,0 +1,35 @@
+.products {
+  padding-bottom: 84px;
+}
+.products__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.products__group-img {
+  display: flex;
+  gap: 20px;
+}
+.products__group-img svg {
+  background-color: rgb(245, 245, 245);
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 840px) {
+  .products__wrapper {
+    justify-content: center;
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .products__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .products__group-img {
+    display: none;
+  }
+}
